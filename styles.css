@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     font-family:'Roboto', sans-serif;
-    border:1px solid red;
+    /*border:1px solid red;*/
 }
 
 
@@ -64,7 +64,7 @@
     font-size:18px;
     color:#e5e7eb;
 }
-button{
+.signUp{
     padding-left: 35px;
     padding-right:35px;
     padding-top: 10px;
@@ -72,7 +72,68 @@ button{
     border-radius:10px;
     background-color:#3882F6;
     color:#F9FAF8;
+    border: 1px solid #1f2937;
     font-weight:1000;
     margin-top:10px;
 }
 
+.someRandomInformation{
+    text-align:center;
+    font-size:36px;
+    color: #1F2937;
+    font-weight:900;
+}
+.information{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    gap:50px;
+}
+
+.subtext{
+    display:flex;
+    flex-direction: column;
+}
+.subimage{
+    border: 2px solid blue;
+    border-radius:25px;
+    padding:75px;
+}
+.quote{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#e5e7eb;
+    align-items:center;
+    padding:40px;
+}
+.quoteText{
+    font-size:36px;
+    font-style: italic;
+}
+.quoteArtist{
+    font-weight:900;
+    padding-left:600px;
+    font-size:16px;
+}
+
+.callToActionHolder{
+    background-color:white;
+    padding: 40px 480px 40px 480px;
+}
+.callToAction{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: #3882f6;
+    padding:20px;
+    border-radius:10px;
+}
+.signUpCall{
+    border:1px solid white;
+    padding:3px 20px 3px 20px;
+    border-radius:5px;
+    background-color:#3882f6;
+    color:white;
+}
